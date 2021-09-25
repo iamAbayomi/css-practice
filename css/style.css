@@ -1,37 +1,6 @@
-*,
-::before,
-::after{
-    box-sizing: border-box;
-}
-
-:root{
-    font-size: 0.75em;
-}
-
-.padded{
-    font-size: 32px;
-    padding: 1em;
-    width: 200px;
-    border: 1px solid black;
-}
-
-.box{
-    padding: 1em;
-    border-radius: 1em;
-    background-color: lightgray;
-}
-
-.box-small{
-    font-size: 12px;
-}
-
-
-.box-large{
-    font-size: 18px;
-}
-
 
 .panel{
+    font-size: 1rem;
     padding: 1em;
     border-radius: 0.5em;
     border: 1px solid#999;
@@ -39,20 +8,32 @@
 
 .panel > h2 {
     margin-top: 0;
-    font-size: 0.8rem;
+    font-size: 0.8em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 576px){
-    .padded{
-        width: 100px;
-        font-size: 16px;
-        box-sizing: border-box;
-    }
+.panel.large{
+    font-size: 1.2rem;
 }
 
+.space{
+    margin: 40px;
+}
 
+.square{
+    width: 90vmin;
+    height: 90vmin;
+    background-color: #369;
+}
+
+.square-width{
+    width: 90vw;   
+    height: 90vw;
+    background-color: red;
+}
+
+/* For Tablets */
 @media (min-width: 800px){
     :root{
         font-size: 0.875em;
@@ -60,6 +41,7 @@
 }
 
 
+/* For Large Devices */
 @media (min-width: 1200px){
     :root{
         font-size: 1em;

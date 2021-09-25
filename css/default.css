@@ -1,11 +1,22 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+
 :root{
     font-size: 0.75em;
 }
 
+/* For Tablets */
 @media (min-width: 800px){
-
+    :root{
+        font-size: 0.875em;
+    }
 }
 
 @media (min-width: 1200px){
-    
+    :root{
+        font-size: 1em;
+    }
 }
