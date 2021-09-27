@@ -28,13 +28,13 @@ header {
     margin-bottom: 1.5em;
 }
 .main {
-    padding: 0 1.5em;
+    padding: 0 1.5em 1.5em;
     background-color: #fff;
     border-radius: .5em;
 }
 
 .media{
-    padding: 1.5em;
+    padding: 0 1.5em 1.5em;
     background-color: #eee;
     border-radius: 0.5em;
 }
@@ -73,10 +73,16 @@ header {
     clear: both;
 }
 
+.row{
+    margin-left: -0.75em;
+    margin-right: -0.75em;
+}
 
 [class*="column-"] {
     float: left;
-   }
+    padding:  0 0.75em;
+    margin-top: 0;
+}
    .column-1 { width: 8.3333%; }
    .column-2 { width: 16.6667%; }
    .column-3 { width: 25%; }
