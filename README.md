@@ -1,4 +1,4 @@
 # CSS in Depth Practice
 
-This repo uses the example on CSS in depth.
+I implemented the examples in CSS in Depth in this repo.
 
