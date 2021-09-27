@@ -20,10 +20,37 @@ header{
     border-radius: .5em;
 }
 
+.wrapper{
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+}
+
+.container{
+    display: table;
+    width: 100%;
+    border-spacing: 1.5em 0;
+}
+
 main{
     display: block;
 }
 
+.main{
+    display: table-cell;
+    width: 70%;
+    background-color: #fff;
+    border-radius: .5em;
+}
+
+.sidebar{
+    display: table-cell;
+    width: 30%;
+    padding: 1.5em;
+    background-color: #fff;
+    border-radius: .5em;
+}
+
+/* Float Section.
 .main{
     float: left;
     width: 70%;
@@ -40,4 +67,4 @@ main{
     background-color: #fff;
     border-radius: .5em;
     box-sizing: border-box;
-}
+} */
