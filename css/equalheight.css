@@ -1,6 +1,7 @@
 body{
     background-color: #eee;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;
 }
 
 header{
@@ -38,6 +39,14 @@ header{
     text-transform: uppercase;
 }
 
+.sam-link{
+    display: block;
+    color: #0072b0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .button-link + .button-link {
     margin-top: 1.5em;
 }
+
