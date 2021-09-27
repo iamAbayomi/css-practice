@@ -15,6 +15,7 @@ body{
 }
 
 header{
+    padding: 1em 1.5em;
     color: #fff;
     background-color: #0072b0;
     border-radius: .5em;
@@ -48,6 +49,16 @@ main{
     padding: 1.5em;
     background-color: #fff;
     border-radius: .5em;
+}
+
+.button-link{
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+    background-color: #0090C9;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* Float Section.
