@@ -6,8 +6,8 @@
     <div class="container">
         <nav>
             <div class="dropdown">
-                <div class="dropdown-label">Main Menu</div>
-                <div class="dropdown-menu">
+                <div id="dropdown" class="dropdown-label">Main Menu</div>
+                <div id="dropdown-menu" class="dropdown-menu">
                     <ul class="submenu">
                         <li><a href="/">Home</a></li>
                         <li><a href="/coffees">Coffees</a></li>
@@ -20,4 +20,17 @@
         <h1>Wombat Coffee Roasters</h1>
     </div>
 </body>
+
+<script type="text/javascript">  
+    var button = document.getElementById('dropdown')    
+    var menu = document.getElementById("dropdown-menu")
+
+    button.addEventListener('click', function(event){
+        event.preventDefault()
+        // menu.style.display = "block"
+    })
+
+</script>
+
 </html>
+
