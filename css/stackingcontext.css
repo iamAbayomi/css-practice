@@ -1,0 +1,10 @@
+body{
+    margin: 40px;
+}
+
+.box{
+    display: inline-block;
+    width: 200px;
+    line-height: 200px;
+    
+}
